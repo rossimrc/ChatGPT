@@ -1,10 +1,10 @@
 import HlsVideo from './HlsVideo'
 
 const stats = [
-  { value: '200+', label: 'Sites launched' },
-  { value: '98%', label: 'Client satisfaction' },
-  { value: '3.2x', label: 'More conversions' },
-  { value: '5 days', label: 'Average delivery' },
+  { value: '29+', label: 'Anos de experiência' },
+  { value: '3.600+', label: 'Municípios atendidos' },
+  { value: 'ISO', label: '9001 & 14000 certificados' },
+  { value: '100%', label: 'Rastreabilidade' },
 ]
 
 export default function Stats() {

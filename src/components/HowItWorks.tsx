@@ -20,16 +20,16 @@ export default function HowItWorks() {
 
       <div className="relative z-10 flex flex-col items-center justify-center text-center" style={{ minHeight: 500 }}>
         <div className="liquid-glass rounded-full px-3.5 py-1 text-xs font-medium text-white font-body inline-block mb-4">
-          How It Works
+          Nosso Processo
         </div>
         <h2 className="text-4xl md:text-5xl lg:text-6xl font-heading italic text-white tracking-tight leading-[0.9] mb-6">
-          You dream it. We ship it.
+          Do forjamento à entrega.
         </h2>
         <p className="max-w-xl text-white/60 font-body font-light text-sm md:text-base mb-8">
-          Share your vision. Our AI handles the rest—wireframes, design, code, launch. All in days, not quarters.
+          Controle total da cadeia produtiva — do design e construção de moldes ao forjamento, usinagem e testes finais. Rastreabilidade completa em cada peça.
         </p>
         <button className="liquid-glass-strong rounded-full px-6 py-3 text-sm font-medium text-white font-body flex items-center gap-2">
-          Get Started
+          Conheça Nosso Processo
           <ArrowUpRight className="w-4 h-4" />
         </button>
       </div>

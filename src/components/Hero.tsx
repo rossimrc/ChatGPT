@@ -28,17 +28,17 @@ export default function Hero() {
 
       <div className="relative z-10 flex flex-col items-center text-center h-full" style={{ paddingTop: 150 }}>
         <div className="liquid-glass rounded-full px-4 py-2 flex items-center gap-2 mb-8">
-          <span className="bg-white text-black rounded-full px-2.5 py-0.5 text-xs font-medium font-body">
-            New
+          <span className="bg-amber-500 text-black rounded-full px-2.5 py-0.5 text-xs font-medium font-body">
+            Desde 1996
           </span>
           <span className="text-sm text-white/90 font-body">
-            Introducing AI&#8209;powered web design.
+            Referência em válvulas forjadas no Brasil.
           </span>
         </div>
 
         <BlurText
-          text="The Website Your Brand Deserves"
-          className="text-6xl md:text-7xl lg:text-[5.5rem] font-heading italic text-white leading-[0.8] tracking-[-4px] max-w-4xl"
+          text="Válvulas de Precisão para Sua Indústria"
+          className="text-6xl md:text-7xl lg:text-[5.5rem] font-heading italic text-white leading-[0.8] tracking-[-4px] max-w-5xl"
           delay={100}
         />
 
@@ -48,8 +48,8 @@ export default function Hero() {
           animate={{ opacity: 1, filter: 'blur(0px)' }}
           transition={{ delay: 0.8, duration: 0.6 }}
         >
-          Stunning design. Blazing performance. Built by AI, refined by experts.
-          This is web design, wildly reimagined.
+          Forjadas em latão com tecnologia de ponta. Certificação ISO 9001 e ISO 14000.
+          Saneamento, gás e indústria — a solução completa em válvulas e metais.
         </motion.p>
 
         <motion.div
@@ -59,12 +59,12 @@ export default function Hero() {
           transition={{ delay: 1.1, duration: 0.6 }}
         >
           <button className="liquid-glass-strong rounded-full px-6 py-3 text-sm font-medium text-white font-body flex items-center gap-2">
-            Get Started
+            Solicitar Orçamento
             <ArrowUpRight className="w-4 h-4" />
           </button>
           <button className="flex items-center gap-2 text-sm text-white/80 font-body font-medium hover:text-white transition-colors">
             <Play className="w-4 h-4" />
-            Watch the Film
+            Conheça a Fábrica
           </button>
         </motion.div>
       </div>

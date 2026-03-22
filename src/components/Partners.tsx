@@ -1,10 +1,10 @@
-const partners = ['Stripe', 'Vercel', 'Linear', 'Notion', 'Figma']
+const partners = ['SABESP', 'Comgás', 'COPASA', 'SANEPAR', 'CEDAE']
 
 export default function Partners() {
   return (
     <section className="flex flex-col items-center pb-8 pt-16">
       <div className="liquid-glass rounded-full px-3.5 py-1 text-xs font-medium text-white font-body inline-block mb-6">
-        Trusted by the teams behind
+        Homologados pelas maiores autarquias
       </div>
       <div className="flex flex-wrap items-center justify-center gap-12">
         {partners.map((name) => (

@@ -1,21 +1,21 @@
 const testimonials = [
   {
     quote:
-      'A complete rebuild in five days. Our old agency quoted us three months. The result? A site that actually converts — and looks like it costs ten times what we paid.',
-    name: 'Sarah Chen',
-    role: 'CEO, Luminary',
+      'Trabalhamos com a IVM há mais de 10 anos. A qualidade do forjamento em latão é incomparável — zero falhas em campo e suporte técnico sempre disponível.',
+    name: 'Roberto Almeida',
+    role: 'Gerente de Operações, Construtora Araguaia',
   },
   {
     quote:
-      'Conversions up 4x in the first month. The AI didn\'t just make our site prettier — it made it smarter. Every layout decision was backed by data we didn\'t even know existed.',
-    name: 'Marcus Webb',
-    role: 'Head of Growth, Arcline',
+      'As válvulas IVM são nossa escolha padrão para projetos de saneamento. A homologação SABESP e a rastreabilidade total nos dão a confiança que precisamos.',
+    name: 'Fernanda Costa',
+    role: 'Engenheira de Projetos, Hydra Saneamento',
   },
   {
     quote:
-      'They didn\'t just design our site — they understood our brand better than we did. The liquid glass aesthetic, the micro-interactions, every detail felt intentional and premium.',
-    name: 'Elena Voss',
-    role: 'Brand Director, Helix',
+      'Precisávamos de válvulas esfera 3 vias para uma aplicação industrial crítica. A IVM entregou no prazo, com certificação completa e desempenho impecável.',
+    name: 'Carlos Mendes',
+    role: 'Diretor Técnico, Grupo Metalflex',
   },
 ]
 
@@ -24,10 +24,10 @@ export default function Testimonials() {
     <section className="py-24 px-6 md:px-16 lg:px-24">
       <div className="text-center mb-16">
         <div className="liquid-glass rounded-full px-3.5 py-1 text-xs font-medium text-white font-body inline-block mb-4">
-          What They Say
+          Depoimentos
         </div>
         <h2 className="text-4xl md:text-5xl lg:text-6xl font-heading italic text-white tracking-tight leading-[0.9]">
-          Don't take our word for it.
+          Quem usa, confia.
         </h2>
       </div>
 

@@ -19,33 +19,33 @@ export default function CtaFooter() {
 
       <div className="relative z-10 flex flex-col items-center text-center">
         <h2 className="text-5xl md:text-6xl lg:text-7xl font-heading italic text-white tracking-tight leading-[0.9] mb-6">
-          Your next website starts here.
+          Seu próximo projeto começa aqui.
         </h2>
         <p className="max-w-xl text-white/60 font-body font-light text-sm md:text-base mb-8">
-          Book a free strategy call. See what AI&#8209;powered design can do.
+          Solicite um orçamento sem compromisso. Conheça as soluções IVM para saneamento, gás e indústria.
         </p>
         <div className="flex items-center gap-4">
           <button className="liquid-glass-strong rounded-full px-6 py-3 text-sm font-medium text-white font-body">
-            Book a Call
+            Fale com um Especialista
           </button>
-          <button className="bg-white text-black rounded-full px-6 py-3 text-sm font-medium font-body hover:bg-white/90 transition-colors">
-            View Pricing
+          <button className="bg-amber-500 text-black rounded-full px-6 py-3 text-sm font-medium font-body hover:bg-amber-400 transition-colors">
+            Ver Catálogo
           </button>
         </div>
 
         <footer className="mt-32 pt-8 border-t border-white/10 w-full flex flex-col md:flex-row items-center justify-between">
           <span className="text-white/40 text-xs font-body">
-            &copy; 2026 Studio
+            &copy; 2026 IVM — Italy Válvulas e Metais Ltda.
           </span>
           <div className="flex items-center gap-6 mt-4 md:mt-0">
             <a href="#" className="text-white/40 text-xs font-body hover:text-white/60 transition-colors">
-              Privacy
+              Política de Privacidade
             </a>
             <a href="#" className="text-white/40 text-xs font-body hover:text-white/60 transition-colors">
-              Terms
+              Termos de Uso
             </a>
             <a href="#" className="text-white/40 text-xs font-body hover:text-white/60 transition-colors">
-              Contact
+              Contato
             </a>
           </div>
         </footer>
